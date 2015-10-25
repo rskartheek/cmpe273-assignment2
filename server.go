@@ -259,7 +259,6 @@ func (lc LocationController) ModifyLocation(w http.ResponseWriter, r *http.Reque
 	// Marshal provided interface into JSON structure
 
 	uj, _ := json.Marshal(locationObject)
-	fmt.Println(retrivedObject)
 
 	// Write content-type, statuscode, payload
 	w.Header().Set("Content-Type", "application/json")
