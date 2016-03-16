@@ -55,7 +55,7 @@ type (
 
 func getSession() *mgo.Session {
 	// Connect to our local mongo
-	s, err := mgo.Dial("mongodb://assignment2:cmpe273Assignment2@ds037824.mongolab.com:37824/go_rest_api_assignment2")
+	s, err := mgo.Dial("------------------------------------------------------------")
 
 	// Check if connection error, is mongo running?
 	if err != nil {
